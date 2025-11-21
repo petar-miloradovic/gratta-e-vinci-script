@@ -17,10 +17,10 @@ import time
 
 # Probability distribution for prize winnings / Distribuzione probabilità
 PRIZE_PROBABILITIES = {
-    "150_coins": 0.20,  # 20% chance for 150 coins / 20% probabilità 150 monete
-    "350_coins": 0.10,  # 10% chance for 350 coins / 10% probabilità 350 monete
-    "700_coins": 0.05,  # 5% chance for 700 coins / 5% probabilità 700 monete
-    "no_prize": 0.65,   # 65% chance for no prize / 65% probabilità nessun premio
+    "150_coins": 0.10,  # 10% chance for 150 coins / 10% probabilità 150 monete
+    "350_coins": 0.05,  # 5% chance for 350 coins / 5% probabilità 350 monete
+    "700_coins": 0.025,  # 2.5% chance for 700 coins / 2.5% probabilità 700 monete
+    "no_prize": 0.825,   # 82.5% chance for no prize / 82.5% probabilità nessun premio
 }
 
 # Prize values mapping / Mappatura valori premi
